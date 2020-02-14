@@ -13,6 +13,8 @@ A great game for high, or just generally space-brained folks who need a break fr
 ## Blerb 04
 😸🤷‍♀️🐍❤️
 
+## Play it in your Web Browser
+[kuwala.github.io/something_about_snake](https://kuwala.github.io/something_about_snake/)
 ## Credits
 Music by Jess Andra Dr.Paco McFadden,
 Doodles by mcDanky Smolenky
