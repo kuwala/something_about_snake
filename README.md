@@ -16,8 +16,9 @@ A great game for high, or just generally space-brained folks who need a break fr
 ## Play it in your Web Browser
 [kuwala.github.io/something_about_snake](https://kuwala.github.io/something_about_snake/)
 ## Credits
-Music by Jess Andra Dr.Paco McFadden,
-Doodles by mcDanky Smolenky
+Music, Blerbs, & more by Jessi Andra Dr.Paco McFadden,
+
+Doodles, Programming Poodles, & more by mcDanky Smolenky
 
 ## Made with
 unity 2018.3.8f1 on a 12" Macbook 2k17
