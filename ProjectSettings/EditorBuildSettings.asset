@@ -11,13 +11,13 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Archive/SampleScene.unity
     guid: 44af8578403d74bdc9232a399b50dd50
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/WorldHub.unity
     guid: eff9b9463398a4536ac1fb59efafc605
   - enabled: 1
     path: Assets/Scenes/Character_Prefab_Setup.unity
     guid: 1169ad7aedc24463ab77a1f745ab5ad9
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Grass_Is.unity
     guid: 832da164a7cda477e9a994fcfa3bab0f
   m_configObjects: {}

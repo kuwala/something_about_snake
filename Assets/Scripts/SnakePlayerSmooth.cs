@@ -111,6 +111,13 @@ public class SnakePlayerSmooth : MonoBehaviour
             audioSource.gameObject.GetComponent<AudioPlayer>().PlayFab();
         }
 
+        if (collision.tag == "Food")
+        {
+
+            Grow();
+            Destroy(collision.gameObject);
+        }
+
     }
     public void Grow()
     {
@@ -122,6 +129,7 @@ public class SnakePlayerSmooth : MonoBehaviour
         {
             collision.GetComponent<GameDoor>().entered = false;
         }
+
     }
     public void Pause()
     {

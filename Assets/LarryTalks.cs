@@ -22,6 +22,7 @@ public class LarryTalks : MonoBehaviour
         if(collision.tag == "Player")
         {
             TurnOnMessage();
+            Debug.Log("cloided");
 
         }
     }

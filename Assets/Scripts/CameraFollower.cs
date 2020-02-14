@@ -70,12 +70,20 @@ public class CameraFollower : MonoBehaviour
         //size += zoomRate;
         if(follow)
         {
-            Transform t = target.GetComponent<Transform>();
-            nextPosition.x = t.position.x;
-            nextPosition.y = t.position.y;
+            if(target != null)
+            {
+                Transform t = target.GetComponent<Transform>();
+                nextPosition.x = t.position.x;
+                nextPosition.y = t.position.y;
+            }
+            
         }
-        transform.position = Vector3.Lerp(transform.position, nextPosition, Time.deltaTime * moveSpeed);
-        transform.localScale = Vector3.Lerp(transform.localScale, nextScale, Time.deltaTime * moveSpeed);
+        if(target!= null)
+        {
+            transform.position = Vector3.Lerp(transform.position, nextPosition, Time.deltaTime * moveSpeed);
+            transform.localScale = Vector3.Lerp(transform.localScale, nextScale, Time.deltaTime * moveSpeed);
+        }
+        
         
     }
     public void SetStaticPosition(Transform t)
